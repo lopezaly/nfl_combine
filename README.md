@@ -12,7 +12,7 @@ The primary analysis considers the relationship between player BMI (independent 
 ### Data Cleaning
 172 players were excluded due to missing datapoint for Forty variable. Univariate boxplot analysis also indicated that Forty and BMI each contained outlying observations. A total of 457 players/observations were removed from analysis as outlying values. Outliers, for the purpose of this analysis, are defined as values outside of two standard deviations from the mean. 183 players were removed for outlying BMI values. 274 players were removed for having outlying Forty meter dash times. Further analysis into position subgroups should be considered to more accurately exclude outlying values. BMI and Forty have a positive correlation of 0.75 (0.04 less than with the outlying variables).
 
-Descriptive Statistics / Data Exploration
+### Descriptive Statistics / Data Exploration
 Forty has a mean value of 4.734, median of 4.9, IQR of 0.32, and range from 3.73 to 5.38 after exclusion of 274 outliers. The data is slightly right-skewed. 
 ![forty eda](https://github.com/lopezaly/nfl_combine/blob/main/forty-eda.png)
 
